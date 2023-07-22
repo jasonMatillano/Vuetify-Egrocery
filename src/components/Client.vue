@@ -56,18 +56,19 @@ export default {
         img: 'https://cdn.vuetifyjs.com/images/lists/2.jpg',
         title: 'AAE IdeaPro',
         subtitle: 'CPO on Maqua',
-        bio: "If you enjoy using Vuetify, please take a few seconds to rate your experience with the framework. It really helps!"
+        bio: 'If you enjoy using Vuetify, please take a few seconds to rate your experience with the framework. It really helps!'
       },
       {
         img: 'https://cdn.vuetifyjs.com/images/lists/3.jpg',
-        title: "Raul Seem ",
-        subtitle: "CPO on Maqua",
-        bio: "If you enjoy using Vuetify, please take a few seconds to rate your experience with the framework. It really helps!",
-      },
-    ],
-  }),
-};
+        title: 'Raul Seem',
+        subtitle: 'CPO on Maqua',
+        bio: 'If you enjoy using Vuetify, please take a few seconds to rate your experience with the framework. It really helps!'
+      }
+    ]
+  })
+}
 </script>
 
 <style>
+
 </style>

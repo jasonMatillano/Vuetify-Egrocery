@@ -32,11 +32,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+}
 </script>
 
 <style>
-.v-toolbar__title {
-  font-size: 1rem !important;
+  .v-toolbar__title {
+    font-size: 1rem !important;
+
 }
+
 </style>
