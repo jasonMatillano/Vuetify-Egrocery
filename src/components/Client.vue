@@ -25,7 +25,7 @@
         <v-card-text>
           <div class="mt-n7">
             <v-rating
-              v-model="rating"
+              v-model="client.rating"
               color="yellow darken-3"
               background-color="grey darken-1"
               empty-icon="$ratingFull"
@@ -44,25 +44,27 @@
 <script>
 export default {
   data: () => ({
-    rating: 5,
     clients: [
       {
         img: './client-assets/jann.jpg',
         title: 'Jann Benedick Mendoza',
         subtitle: 'CPO on Maqua',
-        bio: '"I was so pleased with the service I received from this business. They went above and beyond to help me find the perfect item."'
+        bio: '"I was so pleased with the service I received from this business. They went above and beyond to help me find the perfect item."',
+        rating: 4
       },
       {
         img: './client-assets/jae.jpg',
         title: 'Jae  Mendoza',
         subtitle: 'CPO on Maqua',
-        bio: '“I had an amazing experience with this company. The customer service was outstanding, and the product was exactly what I was looking for.”'
+        bio: '“I had an amazing experience with this company. The customer service was outstanding, and the product was exactly what I was looking for.”',
+        rating: 5
       },
       {
         img: './client-assets/kara.jpg',
         title: 'Kara Jane Maquiling',
         subtitle: 'CPO on Maqua',
-        bio: '“The customer service at this company is excellent. They were accommodating and responsive to my questions.”'
+        bio: '“The customer service at this company is excellent. They were accommodating and responsive to my questions.”',
+        rating: 3
       }
     ]
   })
