@@ -5,7 +5,7 @@
     </v-badge>
 
     <v-toolbar-title class="ml-4">
-      <span class="green--text">e</span><strong>Grocery</strong>
+      <strong>Jason's </strong><span class="green--text">e</span><strong>Grocery</strong>
     </v-toolbar-title>
 
     <v-spacer></v-spacer>
@@ -20,10 +20,10 @@
       </v-avatar>
     </v-badge>
     <span class="grey--text d-none d-sm-flex"
-      >Hello, <strong> Jonny</strong></span
+      >Hello, <strong> Jason </strong></span
     >
     <v-avatar size="30" class="ml-2">
-      <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
+      <v-img :src="img"></v-img>
     </v-avatar>
     <v-btn icon dark class="">
       <v-icon x-small color="#878A94">fas fa-chevron-down</v-icon>
@@ -33,6 +33,9 @@
 
 <script>
 export default {
+  data: () => ({
+    img: './client-assets/jason.jpg'
+  })
 }
 </script>
 

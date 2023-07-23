@@ -44,25 +44,25 @@
 <script>
 export default {
   data: () => ({
-    rating: 4.5,
+    rating: 5,
     clients: [
       {
-        img: 'https://cdn.vuetifyjs.com/images/lists/1.jpg',
-        title: 'Kareem Benji',
+        img: './client-assets/jann.jpg',
+        title: 'Jann Benedick Mendoza',
         subtitle: 'CPO on Maqua',
-        bio: 'If you enjoy using Vuetify, please take a few seconds to rate your experience with the framework. It really helps!'
+        bio: '"I was so pleased with the service I received from this business. They went above and beyond to help me find the perfect item."'
       },
       {
-        img: 'https://cdn.vuetifyjs.com/images/lists/2.jpg',
-        title: 'AAE IdeaPro',
+        img: './client-assets/jae.jpg',
+        title: 'Jae  Mendoza',
         subtitle: 'CPO on Maqua',
-        bio: 'If you enjoy using Vuetify, please take a few seconds to rate your experience with the framework. It really helps!'
+        bio: '“I had an amazing experience with this company. The customer service was outstanding, and the product was exactly what I was looking for.”'
       },
       {
-        img: 'https://cdn.vuetifyjs.com/images/lists/3.jpg',
-        title: 'Raul Seem',
+        img: './client-assets/kara.jpg',
+        title: 'Kara Jane Maquiling',
         subtitle: 'CPO on Maqua',
-        bio: 'If you enjoy using Vuetify, please take a few seconds to rate your experience with the framework. It really helps!'
+        bio: '“The customer service at this company is excellent. They were accommodating and responsive to my questions.”'
       }
     ]
   })
