@@ -1,3 +1,4 @@
 # ignore cache
 node_modules/.cache/babel-loader
 node_modules/.cache/eslint
+node_modules/.cache/eslint/0c6ba0de.json

@@ -34,7 +34,7 @@
 <script>
 export default {
   data: () => ({
-    img: './client-assets/jason.jpg'
+    img: './navbar-assets/jason.jpg'
   })
 }
 </script>
