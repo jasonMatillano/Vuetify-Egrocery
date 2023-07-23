@@ -11,12 +11,12 @@
     <v-spacer></v-spacer>
     <v-badge color="#FF6D59" overlap content="2" class="mr-2 mt-1">
       <v-avatar color="#FFF0EE" size="40">
-        <v-icon x-small color="#FF6D59">far fa-heart</v-icon>
+        <v-icon x-small :color="'#FF6D59'">far fa-heart</v-icon>
       </v-avatar>
     </v-badge>
     <v-badge color="#41AB55" overlap content="3" class="mr-2 mt-1">
       <v-avatar color="#ECF7EE" size="40">
-        <v-icon x-small color="#41AB55">fas fa-shopping-cart</v-icon>
+        <v-icon x-small :color="'#41AB55'">fas fa-shopping-cart</v-icon>
       </v-avatar>
     </v-badge>
     <span class="grey--text d-none d-sm-flex"
